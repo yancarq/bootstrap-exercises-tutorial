@@ -1,11 +1,136 @@
 {
-  "title": "Learn Bootstrap Tutorial",
-  "description": "A complete tutorial list of small targeted exercises that will show the most usefull things you need to learn about bootstrap",
-  "repository": "https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial",
-  "language": "css",
-  "duration": 8,
-  "preview": "https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial/blob/master/preview.png?raw=true",
-  "difficulty": "easy",
-  "video-solutions": false,
-  "graded": true
+    "port": 3000,
+    "address": "https://ff7d4bab-c8db-4cff-988f-700ad0fe2102.ws-us03.gitpod.io",
+    "editor": "gitpod",
+    "configPath": {
+        "config": "learn.json",
+        "base": ".learn",
+        "exercises": "./exercises",
+        "output": ".learn/dist"
+    },
+    "outputPath": "./.learn/dist",
+    "publicPath": "/preview",
+    "grading": "isolated",
+    "ignoreRegex": {},
+    "webpack_template": null,
+    "disable_grading": false,
+    "onCompilerSuccess": "open-browser",
+    "language": "css",
+    "compiler": "webpack",
+    "tester": "jest",
+    "actions": [
+        "build",
+        "test",
+        "reset"
+    ],
+    "title": "Learn Bootstrap Tutorial",
+    "description": "A complete tutorial list of small targeted exercises that will show the most usefull things you need to learn about bootstrap",
+    "repository": "https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial",
+    "duration": 8,
+    "preview": "https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial/blob/master/preview.png?raw=true",
+    "difficulty": "easy",
+    "video-solutions": false,
+    "graded": true,
+    "session": 6357368733903414000,
+    "exercises": [
+        {
+            "slug": "00-Welcome",
+            "title": "00-Welcome",
+            "done": false,
+            "path": "exercises/00-Welcome",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "01-Add-Bootstrap-To-Your-Website",
+            "title": "01-Add-Bootstrap-To-Your-Website",
+            "done": false,
+            "path": "exercises/01-Add-Bootstrap-To-Your-Website",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "02-Bootstrap-Skeleton",
+            "title": "02-Bootstrap-Skeleton",
+            "done": false,
+            "path": "exercises/02-Bootstrap-Skeleton",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "03-Bootstrap-Grid",
+            "title": "03-Bootstrap-Grid",
+            "done": false,
+            "path": "exercises/03-Bootstrap-Grid",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "04-Navbar",
+            "title": "04-Navbar",
+            "done": false,
+            "path": "exercises/04-Navbar",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "05-Sidebar-With-Menu",
+            "title": "05-Sidebar-With-Menu",
+            "done": false,
+            "path": "exercises/05-Sidebar-With-Menu",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "06-Jumbotron-And-Three-Boxes",
+            "title": "06-Jumbotron-And-Three-Boxes",
+            "done": false,
+            "path": "exercises/06-Jumbotron-And-Three-Boxes",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "07-Buttons-Alert-And-Table",
+            "title": "07-Buttons-Alert-And-Table",
+            "done": false,
+            "path": "exercises/07-Buttons-Alert-And-Table",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "08-Bootstrap-Forms",
+            "title": "08-Bootstrap-Forms",
+            "done": false,
+            "path": "exercises/08-Bootstrap-Forms",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        }
+    ]
 }
